@@ -18,10 +18,17 @@ Clone this repo and run `npm install` to install dependencies.
 To avoid storing secrets in the repository, this script pulls your Classy API
 credentials from environment variables on your system. In a terminal window set the 
 following, subbing in your correct credentials.
+#### Linux/Mac
 ```$bash
 export CLASSY_CLIENT_ID=<client id>
 export CLASSY_CLIENT_SECRET=<client secret>
 export CLASSY_FUNDRAISER_ID=<fundraiser id>
+```
+#### Windows
+```$bash
+SET CLASSY_CLIENT_ID=<client id>
+SET CLASSY_CLIENT_SECRET=<client secret>
+SET CLASSY_FUNDRAISER_ID=<fundraiser id>
 ```
 ### Creating an OBS widget
 1. In OBS, create a new source. Select the _Browser Source_ type.
